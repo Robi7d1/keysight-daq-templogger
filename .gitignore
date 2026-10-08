@@ -1,0 +1,38 @@
+# ── Python ────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Application state ────────────────────────────────────────────────
+# Machine-specific, and may contain lab data (customer/serial numbers,
+# session history, saved channel names). Never commit these.
+.keysight_config.json
+.keysight_session.json
+sessions/
+window_settings/
+
+# ── Exported data ────────────────────────────────────────────────────
+*.npy
+*.csv
+*.log
+
+# Exception: any file under docs/examples/ is intentionally committed
+# as a sample. The negation must come after the ignore it overrides.
+!docs/examples/
+!docs/examples/*.log
+
+# ── Editors / OS ─────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
