@@ -1,7 +1,7 @@
 # Temperature Logger
 
 A single-file desktop data-acquisition tool for the **Keysight DAQ970A**, 
-and for other Keysight/Agilent DAQ instruments that use the same 
+and other Keysight/Agilent DAQ instruments that use the same 
 slot/position SCPI channel addressing and `MEAS:TEMP:TC?` command form.
 
 Reads thermocouple channels over LAN or USB, plots them live, logs them
